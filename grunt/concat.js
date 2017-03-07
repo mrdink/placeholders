@@ -29,30 +29,31 @@ module.exports = {
 
 			// Individual Foundation components
 			// If you aren't using a component, just remove it from the list
-			'bower_components/foundation-sites/dist/js/plugins/foundation.abide.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.accordion.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.accordionMenu.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.drilldown.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.dropdown.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.dropdownMenu.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.equalizer.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.interchange.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.abide.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.accordion.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.accordionMenu.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.drilldown.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.dropdown.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.dropdownMenu.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.equalizer.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.interchange.js',
 			'bower_components/foundation-sites/dist/js/plugins/foundation.magellan.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.offcanvas.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.orbit.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.responsiveMenu.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.responsiveToggle.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.reveal.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.slider.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.offcanvas.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.orbit.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.responsiveMenu.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.responsiveToggle.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.reveal.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.slider.js',
 			'bower_components/foundation-sites/dist/js/plugins/foundation.sticky.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.tabs.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.toggler.js',
-			'bower_components/foundation-sites/dist/js/plugins/foundation.tooltip.js'
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.tabs.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.toggler.js',
+			// 'bower_components/foundation-sites/dist/js/plugins/foundation.tooltip.js'
 		],
 		dest: 'assets/js/foundation.js'
 	},
 	scripts: {
 		src: [
+			'bower_components/jscolor-picker/jscolor.js',
 			'assets/js/src/_*.js'
 		],
 		dest: 'assets/js/scripts.js'
