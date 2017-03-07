@@ -62,5 +62,11 @@ module.exports = {
 			'bower_components/html5shiv/dist/html5shiv.js'
 		],
 		dest: 'assets/js/html5shiv.js'
+	},
+	jquery: {
+		src: [
+			'bower_components/jquery/dist/jquery.js'
+		],
+		dest: 'assets/js/jquery.js'
 	}
 };

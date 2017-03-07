@@ -11,3 +11,7 @@
 @import 'src/motion-ui';
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+// Layout
+@import 'layout/layout';
+@import 'layout/header';

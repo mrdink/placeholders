@@ -1,0 +1,19 @@
+.site-header {
+  background-color: $topbar-background;
+  color: $white;
+
+  .top-bar {
+    max-width: $global-width;
+    margin: 0 auto;
+  }
+
+  .menu {
+    & > li {
+      & > a {
+        font-size: rem-calc(14);
+        font-weight: 600;
+        color: rgba($white, 0.75);
+      }
+    }
+  }
+}
