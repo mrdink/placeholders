@@ -1,5 +1,15 @@
 # Placeholder
 
+## Installation
+
+Install placeholders on your own server.
+
+`git clone git@github.com:mrdink/placeholders.git`
+
+Once cloned, open `/dist/placeholders/index.html` then search and replace `img.sixteenbit.com` with the URL of your site.
+
+Copy `/dist/placeholders/` to the root of your server.
+
 ## Forked from [Dummy Image Generator](https://github.com/kingkool68/dummyimage)
 
 ## Credit
