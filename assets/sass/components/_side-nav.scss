@@ -4,15 +4,19 @@
 
     & > li {
       & > a {
-        padding: rem-calc(8 16);
         border-left: 2px solid transparent;
-        font-size: rem-calc(13);
+        font-size: rem-calc(18);
         font-weight: 600;
 
         &:hover,
         &:focus,
         &.active {
           border-left: 2px solid $primary-color;
+        }
+
+        @include breakpoint(medium up) {
+          padding: rem-calc(8 16);
+          font-size: rem-calc(13);
         }
       }
 

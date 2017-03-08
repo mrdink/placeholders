@@ -156,7 +156,7 @@ $height = round( $height, 3 );
 $text_angle = 0;
 
 // If you want to use a different font simply upload the true type font (.ttf) file to the same directory as this PHP file and set the $font variable to the font file name. I'm using the M+ font which is free for distribution -> http://www.fontsquirrel.com/fonts/M-1c
-$font = 'assets/fonts/FiraSans-Light.ttf';
+$font = 'assets/fonts/FiraMono-Regular.ttf';
 
 // Create an image
 $img      = imageCreate( $width, $height );
@@ -188,7 +188,7 @@ if ( isset( $_GET['text'] ) && $_GET['text'] ) {
 }
 
 // Ric Ewing: I modified this to behave better with long or narrow images and condensed the resize code to a single line
-$fontsize = max( min( $width / strlen( $text ) * 1.15, $height * 0.5 ), 5 );
+$fontsize = max( min( $width / strlen( $text ) * 0.8, $height * 0.5 ), 5 );
 // Pass these variable to a function to calculate the position of the bounding box
 $textBox = imagettfbbox_t( $fontsize, $text_angle, $font, $text );
 // Calculate the width of the text box by subtracting the upper right "X" position with the lower left "X" position

@@ -37,6 +37,7 @@
 					<li><a href="#size">Size</a></li>
 					<li><a href="#colors">Colors</a></li>
 					<li><a href="#text">Text</a></li>
+					<li><a href="#formats">Formats</a></li>
 					<li><a href="#standards">Standards</a></li>
 				</ul>
 			</div>
@@ -49,28 +50,38 @@
 		</div>
 	</header>
 
-	<section class="callout" style="margin-bottom: 0;">
+	<section class="callout text-center" style="margin-bottom: 0;">
 		<a id="preview" href="600x400/000/fff" target="_blank" rel="noopener noreferrer">
-			<img class="thumbnail aligncenter" title="Placeholder Demo" src="600x400/000/fff">
+			<img class="thumbnail" title="Placeholder Demo" src="600x400/000/fff">
 		</a>
 	</section>
 
 	<div class="callout secondary">
 		<form id="demo">
 			<div class="row">
-				<div class="medium-4 columns">
+				<div class="medium-3 columns">
 					<label for="demo-size">Size
 						<input type="text" class="text" name="demo-size" id="demo-size" value="600x400">
 					</label>
 				</div>
-				<div class="medium-4 columns">
+				<div class="medium-3 columns">
 					<label for="demo-bg">Background Color
 						<input type="text" class="jscolor" name="demo-bg" id="demo-bg" value="000" size="6" maxlength="6">
 					</label>
 				</div>
-				<div class="medium-4 columns">
+				<div class="medium-3 columns">
 					<label for="demo-fg">Foreground Color
 						<input type="text" class="jscolor" name="demo-fg" id="demo-fg" value="fff" size="6" maxlength="6">
+					</label>
+				</div>
+				<div class="medium-3 columns">
+					<label for="demo-format">Format
+						<select name="demo-format" id="demo-format">
+							<option value="" selected></option>
+							<option value=".png">png</option>
+							<option value=".gif">gif</option>
+							<option value=".jpg">jpg</option>
+						</select>
 					</label>
 				</div>
 			</div>
@@ -90,6 +101,7 @@
 					<li><a href="#size">Size</a></li>
 					<li><a href="#colors">Colors</a></li>
 					<li><a href="#text">Text</a></li>
+					<li><a href="#formats">Formats</a></li>
 					<li><a href="#standards">Standards</a></li>
 					<li class="back-to-top"><a href="#top">Back to top</a></li>
 				</ul>
@@ -154,7 +166,7 @@
 					<li>a-z (upper and lowercase), numbers, and most symbols will work just fine.</li>
 					<li>Spaces become +
 						<ul>
-							<li><a href="200x300&text=placeholders.dev+rocks!" target="_blank" rel="noopener noreferrer" class="example correct">https://img.sixteenbit.com/200x300&amp;text=placeholders.dev+rocks!</a>
+							<li><a href="200x300&text=img.sixteenbit.com+rocks!" target="_blank" rel="noopener noreferrer" class="example correct">https://img.sixteenbit.com/200x300&amp;text=img.sixteenbit.com+rocks!</a>
 							</li>
 						</ul>
 					</li>
@@ -192,6 +204,25 @@
 					character) to get around this, <a href="480&text=400×250">&amp;text=400&#215;250</a>.</p>
 				<p>If you need to use other unicode characters, look up their UTF-8 Hex version at <a href="http://www.fileformat.info/info/unicode/char/search.htm" target="_blank" rel="noopener noreferrer">http://www.fileformat.info/info/unicode/char/search.htm</a>
 				</p>
+			</section>
+
+			<section id="formats" class="docs-section" data-magellan-target="formats">
+				<h3>Image Formats</h3>
+
+				<p class="lead">.gif, .jpg, .png</p>
+
+				<ul>
+					<li>Adding an image file extension will render the image in the proper format</li>
+					<li>Image format is optional and the default is a gif</li>
+					<li>jpg and jpeg are the same</li>
+					<li>The image extension can go at the end of any option in the url
+						<ul>
+							<li><a href="300.png/09f/fff" target="_blank" rel="noopener noreferrer" class="example correct">https://img.sixteenbit.com/300.png/09f/fff</a></li>
+							<li><a href="300/09f.png/fff" target="_blank" rel="noopener noreferrer" class="example correct">https://img.sixteenbit.com/300/09f.png/fff</a></li>
+							<li><a href="300/09f/fff.png" target="_blank" rel="noopener noreferrer" class="example correct">https://img.sixteenbit.com/300/09f/fff.png</a></li>
+						</ul>
+					</li>
+				</ul>
 			</section>
 
 			<section id="standards" class="docs-section" data-magellan-target="standards">
