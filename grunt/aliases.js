@@ -6,7 +6,6 @@ module.exports = {
 	],
 	'setup': [
 		'copy:fontawesome',
-		'copy:fira'
 	],
 	'styles': [
 		'clean:pre',

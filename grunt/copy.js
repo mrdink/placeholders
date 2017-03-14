@@ -33,12 +33,5 @@ module.exports = {
 		filter: 'isFile',
 		src: ['bower_components/font-awesome/fonts/**'],
 		dest: 'assets/fonts/'
-	},
-	fira: {
-		expand: true,
-		flatten: true,
-		filter: 'isFile',
-		src: ['bower_components/firasans-googlefont/**.ttf', 'bower_components/firamono-googlefont/**.ttf'],
-		dest: 'assets/fonts/'
 	}
 };
