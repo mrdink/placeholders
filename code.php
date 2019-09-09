@@ -60,7 +60,7 @@ if ( $x[0] == '/' ) {
 $x_pieces = explode( '/', $x );
 
 // To easily manipulate colors between different formats
-include( "color.class.php" );
+include( 'color.class.php' );
 
 // Find the background color which is always after the 2nd slash in the url
 $bg_color = 'ccc';
@@ -111,7 +111,7 @@ if ( $dimensions[1] ) {
 
 // If the dimensions are too small then kill the script
 if ( $width < 1 || $height < 1 ) {
-	die( "Too small of an image!" );
+	die( 'Too small of an image!' );
 }
 
 // If one of the dimensions has a colon in it, we can calculate the aspect ratio. Chances are the height will contain a ratio, so we'll check that first.
@@ -128,7 +128,7 @@ if ( preg_match( '/:/', $height ) ) {
 	}
 
 	$height = ( $width * $ratio[1] ) / $ratio[0];
-} else if ( preg_match( '/:/', $width ) ) {
+} elseif ( preg_match( '/:/', $width ) ) {
 	$ratio = explode( ':', $width );
 	//If we only have one ratio value, set the other value to the same value of the first making it a ratio of 1
 	if ( ! $ratio[1] ) {
@@ -145,7 +145,7 @@ if ( preg_match( '/:/', $height ) ) {
 //Limit the size of the image to no more than an area of 16,000,000
 $area = $width * $height;
 if ( $area >= 16000000 || $width > 9999 || $height > 9999 ) {
-	die( "Too big of an image!" );
+	die( 'Too big of an image!' );
 }
 
 //Let's round the dimensions to 3 decimal places for aesthetics
@@ -156,7 +156,7 @@ $height = round( $height, 3 );
 $text_angle = 0;
 
 // If you want to use a different font simply upload the true type font (.ttf) file to the same directory as this PHP file and set the $font variable to the font file name. I'm using the M+ font which is free for distribution -> http://www.fontsquirrel.com/fonts/M-1c
-$font = 'assets/fonts/source-sans-pro-light.ttf';
+$font = 'assets/fonts/mplus-2c-light.ttf';
 
 // Create an image
 $img      = imageCreate( $width, $height );
@@ -172,7 +172,7 @@ if ( empty( $_GET['text'] ) || ! isset( $_GET['text'] ) ) {
 
 if ( isset( $_GET['text'] ) && $_GET['text'] ) {
 	$_GET['text'] = preg_replace_callback(
-		"/(0x[0-9A-F]{,3})/ui",
+		'/(0x[0-9A-F]{,3})/ui',
 		function ( $matches ) {
 			return chr( hexdec( $matches[0] ) );
 		},
@@ -184,7 +184,7 @@ if ( isset( $_GET['text'] ) && $_GET['text'] ) {
 	$lines = 1;
 	// This is the default text string that will go right in the middle of the rectangle
 	// &#215; is the multiplication sign, it is not an 'x'
-	$text = $width . " &#215; " . $height;
+	$text = $width . ' &#215; ' . $height;
 }
 
 // Ric Ewing: I modified this to behave better with long or narrow images and condensed the resize code to a single line

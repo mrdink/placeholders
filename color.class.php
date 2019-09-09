@@ -22,7 +22,11 @@ class color {
 	 * @access private
 	 * @desc    array for RGB colors
 	 */
-	var $rgb = array( 'r' => 0, 'g' => 0, 'b' => 0 );
+	var $rgb = array(
+		'r' => 0,
+		'g' => 0,
+		'b' => 0,
+	);
 
 	/**
 	 * @var    string $hex
@@ -36,7 +40,12 @@ class color {
 	 * @access private
 	 * @desc    array for cmyk colors
 	 */
-	var $cmyk = array( 'c' => 0, 'm' => 0, 'y' => 0, 'b' => 0 );
+	var $cmyk = array(
+		'c' => 0,
+		'm' => 0,
+		'y' => 0,
+		'b' => 0,
+	);
 
 	/**
 	 * Sets the RGB values
@@ -223,7 +232,12 @@ class color {
 		$m = $m - $b;
 		$y = $y - $b;
 
-		$this->cmyk = array( 'c' => $c, 'm' => $m, 'y' => $y, 'b' => $b );
+		$this->cmyk = array(
+			'c' => $c,
+			'm' => $m,
+			'y' => $y,
+			'b' => $b,
+		);
 	}
 
 	/**
@@ -293,7 +307,7 @@ class color {
 			'magenta' => 'FF00FF',
 			'maroon'  => '800000',
 			'red'     => 'FF0000',
-			'yellow'  => 'FFFF00'
+			'yellow'  => 'FFFF00',
 		);
 		if ( array_key_exists( $name, $color_names ) ) {
 			return $color_names[ $name ];
@@ -303,4 +317,4 @@ class color {
 	}
 }
 
-?>
+

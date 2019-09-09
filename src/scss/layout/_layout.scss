@@ -1,0 +1,45 @@
+.callout {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.site-main {
+  h2 {
+    margin-bottom: rem-calc(24);
+  }
+}
+
+.docs-section {
+  margin-bottom: rem-calc(100);
+  word-wrap: break-word;
+  hyphens: auto;
+
+  h3 {
+    border-bottom: 1px solid $secondary-color;
+  }
+
+  @include breakpoint(medium up) {
+    a {
+      position: relative;
+      display: inline-block;
+      text-decoration: none;
+
+      &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        border-bottom: 2px solid currentColor;
+        transition: 0.4s;
+        content: '';
+      }
+
+      &:hover {
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
