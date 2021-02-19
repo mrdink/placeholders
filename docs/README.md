@@ -1,4 +1,4 @@
-[![placeholder](https://img.sixteenbit.dev/880x660/42b983/fff)](https://img.sixteenbit.dev/880x660/42b983/fff ':id=preview')
+[![placeholder](https://img.sixteenbit.dev/880x660/42b983/fff)](https://img.sixteenbit.dev/880x660/42b983/fff)
 
 ## Documentation
 
@@ -21,7 +21,7 @@ Height is optional, if no height is specified the image will be a square.
 #### background color / text color
 
 *   Colors are represented as hex codes (**#ffffff** is white)
-*   Colors always follow the dimensions, [https://img.sixteenbit.dev/250/ffffff/000000](250/ffffff/000000) not [https://img.sixteenbit.dev/ffffff/250/000000](ffffff/250/000000)
+*   Colors always follow the dimensions, [https://img.sixteenbit.dev/250/ffffff/000000](https://img.sixteenbit.dev/250/ffffff/000000) not [https://img.sixteenbit.dev/ffffff/250/000000](https://img.sixteenbit.dev/ffffff/250/000000)
 *   The first color is always the background color, and the second color is the text color.
 *   The background color is optional and defaults to gray (#cccccc)
 *   The text color is optional and defaults to black (#000000)
@@ -41,9 +41,9 @@ Height is optional, if no height is specified the image will be a square.
 *   Image format is optional and the default is a gif
 *   jpg and jpeg are the same
 *   The image extension can go at the end of any option in the url
-	*   [https://img.sixteenbit.dev/300.png/09f/fff](300.png/09f/fff)
-	*   [https://img.sixteenbit.dev/300/09f.png/fff](300/09f.png/fff)
-	*   [https://img.sixteenbit.dev/300/09f/fff.png](300/09f/fff.png)
+	*   [https://img.sixteenbit.dev/300.png/09f/fff](https://img.sixteenbit.dev/300.png/09f/fff)
+	*   [https://img.sixteenbit.dev/300/09f.png/fff](https://img.sixteenbit.dev/300/09f.png/fff)
+	*   [https://img.sixteenbit.dev/300/09f/fff.png](https://img.sixteenbit.dev/300/09f/fff.png)
 
 ### Custom Text
 
