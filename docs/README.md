@@ -1,4 +1,4 @@
-[![placeholder](https://img.sixteenbit.dev/880x660/42b983/fff)](https://img.sixteenbit.dev/880x660/42b983/fff ':id=preview')
+[![placeholder](https://img.sixteenbit.dev/880x660/42b983/fff)](https://img.sixteenbit.dev/880x660/42b983/fff)
 
 ## Documentation
 
@@ -21,7 +21,7 @@ Height is optional, if no height is specified the image will be a square.
 #### background color / text color
 
 *   Colors are represented as hex codes (**#ffffff** is white)
-*   Colors always follow the dimensions, [https://img.sixteenbit.dev/250/ffffff/000000](250/ffffff/000000) not [https://img.sixteenbit.dev/ffffff/250/000000](ffffff/250/000000)
+*   Colors always follow the dimensions, [https://img.sixteenbit.dev/250/ffffff/000000](https://img.sixteenbit.dev/250/ffffff/000000) not [https://img.sixteenbit.dev/ffffff/250/000000](https://img.sixteenbit.dev/ffffff/250/000000)
 *   The first color is always the background color, and the second color is the text color.
 *   The background color is optional and defaults to gray (#cccccc)
 *   The text color is optional and defaults to black (#000000)
@@ -30,8 +30,8 @@ Height is optional, if no height is specified the image will be a square.
 	*   2 digits will be expanded to 6, ef becomes efefef
 	*   1 digit will be repeated 6 times, c becomes cccccc Note: a single 0 will not work, use 00 instead.
 *   Standard image sizes are also available. See the [complete list](?id=standard-image-sizes).
-	*   [https://img.sixteenbit.dev/qvga](qvga)
-	*   [https://img.sixteenbit.dev/skyscraper/f0f/f](skyscraper/f0f/f)
+	*   [https://img.sixteenbit.dev/qvga](https://img.sixteenbit.dev/qvga)
+	*   [https://img.sixteenbit.dev/skyscraper/f0f/f](https://img.sixteenbit.dev/skyscraper/f0f/f)
 
 ### Image Formats
 
@@ -41,9 +41,9 @@ Height is optional, if no height is specified the image will be a square.
 *   Image format is optional and the default is a gif
 *   jpg and jpeg are the same
 *   The image extension can go at the end of any option in the url
-	*   [https://img.sixteenbit.dev/300.png/09f/fff](300.png/09f/fff)
-	*   [https://img.sixteenbit.dev/300/09f.png/fff](300/09f.png/fff)
-	*   [https://img.sixteenbit.dev/300/09f/fff.png](300/09f/fff.png)
+	*   [https://img.sixteenbit.dev/300.png/09f/fff](https://img.sixteenbit.dev/300.png/09f/fff)
+	*   [https://img.sixteenbit.dev/300/09f.png/fff](https://img.sixteenbit.dev/300/09f.png/fff)
+	*   [https://img.sixteenbit.dev/300/09f/fff.png](https://img.sixteenbit.dev/300/09f/fff.png)
 
 ### Custom Text
 
@@ -53,7 +53,7 @@ Height is optional, if no height is specified the image will be a square.
 *   This is optional, default is the image dimensions (<span class="example">300×250</span>)
 *   a-z (upper and lowercase), numbers, and most symbols will work just fine.
 *   Spaces become +
-	*   [https://img.sixteenbit.dev/200x300&text=img.sixteenbit.dev+rocks!](200x300&text=img.sixteenbit.dev+rocks!)
+	*   [https://img.sixteenbit.dev/200x300&text=img.sixteenbit.dev+rocks!](https://img.sixteenbit.dev/200x300&text=img.sixteenbit.dev+rocks!)
 *   The font used is from the freely available [M+ Font Project](http://mplus-fonts.sourceforge.jp)
 
 The following characters need to be encoded using the UTF-8 Hex version in order to be rendered properly.
