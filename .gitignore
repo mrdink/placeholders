@@ -1,9 +1,5 @@
 .sass-cache
 .idea
 .DS_Store
-bower_components
 node_modules
-*.map
-assets/css/*.css
-assets/js/*.js
-assets/fonts/*
+.npmrc
