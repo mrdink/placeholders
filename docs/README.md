@@ -97,10 +97,10 @@ Several standard dimensions are included in img.sixteenbit.dev including [ad siz
 
 |Keyword|Shortcuts|Dimensions|Regular Expression|
 |--- |--- |--- |--- |
-|[mediumrectangle](https://img.sixteenbit.dev/)|[medrect](https://img.sixteenbit.dev/)|300×250|^(med)\w+(rec\w+)|
-|[squarepopup](https://img.sixteenbit.dev/)|[sqrpop](https://img.sixteenbit.dev/)|250×250|^(s\w+pop)|
-|[verticalrectangle](https://img.sixteenbit.dev/)|[vertrec](https://img.sixteenbit.dev/)|240×400|^(ver)\w+(rec)|
-|[largerectangle](https://img.sixteenbit.dev/)|[lrgrec](https://img.sixteenbit.dev/)|336×280|^(large|lrg)(rec)|
+|[mediumrectangle](https://img.sixteenbit.dev/mediumrectangle)|[medrect](https://img.sixteenbit.dev/medrect)|300×250|^(med)\w+(rec\w+)|
+|[squarepopup](https://img.sixteenbit.dev/squarepopup)|[sqrpop](https://img.sixteenbit.dev/sqrpop)|250×250|^(s\w+pop)|
+|[verticalrectangle](https://img.sixteenbit.dev/verticalrectangle)|[vertrec](https://img.sixteenbit.dev/vertrec)|240×400|^(ver)\w+(rec)|
+|[largerectangle](https://img.sixteenbit.dev/largerectangle)|[lrgrec](https://img.sixteenbit.dev/lrgrec)|336×280|^(large|lrg)(rec)|
 |[rectangle](https://img.sixteenbit.dev/rectangle)|[rec](https://img.sixteenbit.dev/rec)|180×150|^(rec)|
 |[popunder](https://img.sixteenbit.dev/popunder)|[pop](https://img.sixteenbit.dev/pop)|720×300|^(pop)|
 |[fullbanner](https://img.sixteenbit.dev/fullbanner)|[fullban](https://img.sixteenbit.dev/fullban)|468×60|^(f\w+ban)|
