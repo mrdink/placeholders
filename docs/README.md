@@ -30,8 +30,8 @@ Height is optional, if no height is specified the image will be a square.
 	*   2 digits will be expanded to 6, ef becomes efefef
 	*   1 digit will be repeated 6 times, c becomes cccccc Note: a single 0 will not work, use 00 instead.
 *   Standard image sizes are also available. See the [complete list](?id=standard-image-sizes).
-	*   [https://img.sixteenbit.dev/qvga](qvga)
-	*   [https://img.sixteenbit.dev/skyscraper/f0f/f](skyscraper/f0f/f)
+	*   [https://img.sixteenbit.dev/qvga](https://img.sixteenbit.dev/qvga)
+	*   [https://img.sixteenbit.dev/skyscraper/f0f/f](https://img.sixteenbit.dev/skyscraper/f0f/f)
 
 ### Image Formats
 
@@ -53,7 +53,7 @@ Height is optional, if no height is specified the image will be a square.
 *   This is optional, default is the image dimensions (<span class="example">300×250</span>)
 *   a-z (upper and lowercase), numbers, and most symbols will work just fine.
 *   Spaces become +
-	*   [https://img.sixteenbit.dev/200x300&text=img.sixteenbit.dev+rocks!](200x300&text=img.sixteenbit.dev+rocks!)
+	*   [https://img.sixteenbit.dev/200x300&text=img.sixteenbit.dev+rocks!](https://img.sixteenbit.dev/200x300&text=img.sixteenbit.dev+rocks!)
 *   The font used is from the freely available [M+ Font Project](http://mplus-fonts.sourceforge.jp)
 
 The following characters need to be encoded using the UTF-8 Hex version in order to be rendered properly.
