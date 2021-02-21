@@ -93,7 +93,7 @@ if ( isset( $result[0] ) && isset( $result[0][0] ) && $result[0][0] ) {
 
 // Find the image dimensions
 if ( substr_count( $x_pieces[0], ':' ) > 1 ) {
-	die( 'Too many colons in the dimension paramter! There should be 1 at most.' );
+	die( 'Too many colons in the dimension parameter! There should be 1 at most.' );
 }
 
 if ( strstr( $x_pieces[0], ':' ) && ! strstr( $x_pieces[0], 'x' ) ) {
@@ -206,7 +206,6 @@ imageFilledRectangle( $img, 0, 0, $width, $height, $bg_color );
 //Create and positions the text
 imagettftext( $img, $fontsize, $text_angle, $textX, $textY, $fg_color, $font, $text );
 
-
 function process_output_buffer( $buffer = '' ) {
 	$buffer = trim( $buffer );
 	if ( strlen( $buffer ) == 0 ) {
@@ -239,9 +238,11 @@ ob_end_clean();
 // Caching Headers
 $offset = 60 * 60 * 24 * 90; //90 Days
 header( 'Cache-Control: public, max-age=' . $offset );
+
 // Set a far future expire date. This keeps the image locally cached by the user for less hits to the server
 header( 'Expires: ' . gmdate( DATE_RFC1123, time() + $offset ) );
 header( 'Last-Modified: ' . gmdate( 'D, d M Y H:i:s', time() ) . ' GMT' );
+
 // Set the header so the browser can interpret it as an image and not a bunch of weird text
 header( 'Content-type: image/' . $file_format );
 header( 'Content-Length: ' . strlen( $output ) );
