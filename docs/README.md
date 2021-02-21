@@ -56,39 +56,6 @@ Height is optional, if no height is specified the image will be a square.
 	*   [https://img.sixteenbit.dev/200x300&text=img.sixteenbit.dev+rocks!](https://img.sixteenbit.dev/200x300&text=img.sixteenbit.dev+rocks!)
 *   The font used is from the freely available [M+ Font Project](http://mplus-fonts.sourceforge.jp)
 
-The following characters need to be encoded using the UTF-8 Hex version in order to be rendered properly.
-
-<table>
-	<thead>
-		<tr>
-			<th>Character</th>
-			<th>UTF-8 Hex Equivalent</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>+</td>
-			<td><a href="480&text=Plus+Sign=0x2B">0x2B</a></td>
-		</tr>
-		<tr>
-			<td>#</td>
-			<td><a href="480&text=Number+sign+(Octothorp)=0x23">0x23</a></td>
-		</tr>
-		<tr>
-			<td>%</td>
-			<td><a href="480&text=Percent+symbol=0x25">0x25</a></td>
-		</tr>
-		<tr>
-			<td>&amp;</td>
-			<td><a href="480&text=Ampersand=0x26">0x26</a></td>
-		</tr>
-	</tbody>
-</table>
-
-You'll run into problems trying to manually enter a dimension as text if the numbers use the UTf-8 Hex values above, like [https://img.sixteenbit.dev/&text=400x250](https://img.sixteenbit.dev/480&text=400x250). Use a multiplication symbol, × instead (not an x character) to get around this, [https://img.sixteenbit.dev/&text=400×250](https://img.sixteenbit.dev/&text=400×250).
-
-If you need to use other unicode characters, look up their UTF-8 Hex version at [http://www.fileformat.info/info/unicode/char/search.htm](http://www.fileformat.info/info/unicode/char/search.htm)
-
 ### Standard Image Sizes
 
 Several standard dimensions are included in img.sixteenbit.dev including [ad sizes](http://www.iab.net/iab_products_and_industry_services/1421/1443/1452) and [screen resolution sizes](http://en.wikipedia.org/wiki/File:Vector_Video_Standards2.svg).
